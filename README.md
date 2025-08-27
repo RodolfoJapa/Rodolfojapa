@@ -14,10 +14,6 @@
 
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width=50px></picture> About Me
 
-<picture> 
-  <img align="right" src="https://i.ibb.co/7N1ghR5/data-analyst-right.png" width=250px>
-</picture>
-
 - 📊 I am a **Data Analyst** passionate about **data-driven decision making**.  
 - 🛠 Skilled in **Excel, SQL, Power BI, Tableau, Python, R and Statistics**.  
 - 📈 Experience in **Data Cleaning, Visualization, Forecasting and Market Analysis**.  
