@@ -75,7 +75,7 @@
 ## 🤝 Conecta Conmigo  
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourlinkedin">
+  <a href="https://www.linkedin.com/in/rodolfo-japa/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:youremail@example.com">
