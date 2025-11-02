@@ -78,7 +78,7 @@
   <a href="https://www.linkedin.com/in/rodolfo-japa/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:youremail@example.com">
+  <a href="japarodolfo786@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/yourusername">
