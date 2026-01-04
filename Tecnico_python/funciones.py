@@ -1,56 +1,55 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Octavio Gutiérrez de Código Máquina
+import random
+import pandas as pd
 
-URL del canal: https://www.youtube.com/CodigoMaquina
-
-URL del video: https://youtu.be/d1Tl2ZDV0Cc
-
-"""
-
-def suma_dos_numeros(a, b):
-    suma = a + b
-    return suma
-
-def suma_muchos_numeros(*numeros):
-    suma = 0
-    for numero in numeros:
-        suma = suma + numero
-    return suma
-
-# nombre = "JUAN"
-# paterno = "HERNANDEZ"
-# materno = "JIMENEZ"
-
-# JUAN Hernadez Jimenez
+# -----------------------------
+# Funciones del sistema
+# -----------------------------
 
 def formatea_nombre(nombre, paterno, materno):
-    formato = nombre.upper()+" "+ paterno.capitalize()+" "+ materno.capitalize()
-    return formato
-    
+    return nombre.upper() + " " + paterno.capitalize() + " " + materno.capitalize()
 
-# nombre = "JUAN HERNANDEZ JIMENEZ"
-# fecha_nacimiento = 1980
-
-# clave -> JHJ80
-
-def crea_clave(nombre, fecha_nacimiento):
+def crea_clave(nombre_completo, anio_nacimiento):
     clave = ""
-    for vocablo in nombre.split():
-        clave = clave + vocablo[0]
-    fecha_nacimiento = str(fecha_nacimiento)
-    return clave+fecha_nacimiento[-2:]
-
-print (crea_clave("JUAN HERNANDEZ JIMENEZ", 1980))
+    for palabra in nombre_completo.split():
+        clave += palabra[0]
+    return clave + str(anio_nacimiento)[-2:]
 
 
+# -----------------------------
+# Generación de datos sintéticos
+# -----------------------------
+
+nombres = ["juan", "maria", "pedro", "ana", "luis", "carlos", "laura", "jose", "andrea", "miguel"]
+apellidos = ["hernandez", "jimenez", "perez", "gomez", "ramirez", "diaz", "castillo", "martinez"]
+
+registros = []
+
+cantidad_registros = 100  # puedes aumentar a 1000 o 10000
+
+for _ in range(cantidad_registros):
+    nombre = random.choice(nombres)
+    paterno = random.choice(apellidos)
+    materno = random.choice(apellidos)
+    anio_nacimiento = random.randint(1960, 2005)
+
+    nombre_completo = formatea_nombre(nombre, paterno, materno)
+    clave = crea_clave(nombre_completo, anio_nacimiento)
+
+    registros.append({
+        "nombre": nombre,
+        "apellido_paterno": paterno,
+        "apellido_materno": materno,
+        "anio_nacimiento": anio_nacimiento,
+        "nombre_formateado": nombre_completo,
+        "clave": clave
+    })
 
 
+# -----------------------------
+# Crear DataFrame
+# -----------------------------
 
+df = pd.DataFrame(registros)
 
-
-
-
-
-
-    
+# Mostrar las primeras filas
+df.head()
