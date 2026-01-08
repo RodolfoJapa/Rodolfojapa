@@ -8,7 +8,7 @@ Este proyecto fue realizado para **demostrar mis conocimientos técnicos en Pyth
 
 - Plataforma: Google Colab  
 - Lenguaje: Python  
-- Formato principal: Notebooks (`.ipynb`)
+- Formato principal: Notebooks (`.py`)
 
 ---
 
@@ -37,3 +37,4 @@ Este proyecto fue realizado para **demostrar mis conocimientos técnicos en Pyth
 - Proyecto organizado para facilitar mantenimiento y reutilización del código.
 ---
 Proyecto desarrollado con fines **educativos y de portafolio**.
+
