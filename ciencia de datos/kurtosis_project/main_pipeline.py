@@ -10,4 +10,10 @@ def pipeline_produccion():
 
 if __name__ == "__main__":
     df_transacciones, df_alertas = pipeline_produccion()
+    
+    df_alertas.to_csv("alertas.csv", index=False)
+    
+    print("Archivo alertas.csv generado correctamente")
     print(df_alertas.head())
+
+
