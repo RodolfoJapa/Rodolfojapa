@@ -53,8 +53,9 @@ El proyecto simula un escenario similar a un entorno de producción, donde se an
 
 1. Abrir **Google Colab**
 2. Cargar el repositorio o los archivos del proyecto
-3. Ejecutar el archivo `main_pipeline.py`  
-   o ejecutar el pipeline completo desde el notebook
+3. Comprueba si están en la carpeta contenido.
+4. Cambia el directorio de trabajo del cuaderno.
+5. Ejecución `main_pipeline.py`  
 
 ---
 
