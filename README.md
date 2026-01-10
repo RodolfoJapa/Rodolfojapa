@@ -51,7 +51,7 @@
 
 ## 📂 Proyectos Destacados  
 
-🔹 **[Dashboard de Ventas en Power BI](https://github.com/yourusername/sales-dashboard)** → Diseñé KPIs y dashboards para monitorear el rendimiento de ventas.  
+🔹 **[Detección de Anomalías con Kurtosis en Python](https://github.com/RodolfoJapa/portafolio/tree/main/ciencia%20de%20datos)** → Diseñé KPIs y dashboards para monitorear el rendimiento de ventas.  
 
 🔹 **[Segmentación de Clientes (Análisis RFM)](https://github.com/yourusername/customer-segmentation)** → Identifiqué clientes de alto valor para estrategias de marketing.  
 
