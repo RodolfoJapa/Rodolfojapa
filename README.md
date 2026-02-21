@@ -55,6 +55,13 @@
 <img width="898" height="507" alt="blue_for_porfolio" src="https://github.com/user-attachments/assets/f181dbe1-2c82-4edc-a417-d44b39dcb2dd" />
 
 
+🔹 **[Dashboard de Ingresos en Power BI para Análisis del Desempeño del Negocio](https://github.com/RodolfoJapa/portafolio/tree/main/Dashboard_Incomes)** Desarrollé un dashboard interactivo en Power BI para analizar el desempeño financiero de una clínica veterinaria. El proyecto se enfoca en transformar datos en información accionable mediante la visualización de ingresos totales, tendencias mensuales, ingresos por servicio, tipo de animal y rendimiento por doctor.
+<img width="885" height="492" alt="dadhboard" src="https://github.com/user-attachments/assets/6e67e2e2-9355-4ce0-9bbd-4a778538ab52" />
+
+
+
+
+
 
 
 🔹 **[Detección de Anomalías con Kurtosis en Python](https://github.com/RodolfoJapa/portafolio/tree/main/ciencia%20de%20datos)** → Identifiqué comportamientos transaccionales atípicos utilizando kurtosis como métrica estadística, replicando un flujo de análisis de datos.
