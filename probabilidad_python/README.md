@@ -1,6 +1,6 @@
 # 📊 Law of Large Numbers (LLN)
 
-Production-style **Data Science project** demonstrating the **Law of Large Numbers** using numerical simulation in **Python**, executed in **Google Colab**.
+Production-style **Data Science project** demonstrating the **Law of Large Numbers** using numerical simulation in **Python**,
 
 ---
 
