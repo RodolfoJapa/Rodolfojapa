@@ -51,6 +51,12 @@
 
 ## 📂 Proyectos Destacados  
 
+🔹 **[Dashboard de Ventas – Análisis de Rendimiento y Rentabilidad del Negocio](https://github.com/RodolfoJapa/portafolio/tree/main/Dashboard_Sales)** →Desarrollé un dashboard interactivo para analizar el rendimiento comercial y la rentabilidad del negocio. La solución incluye indicadores clave (KPIs) como ventas totales, ganancia total, margen de beneficio (27%), evolución mensual y diaria, análisis por producto, tipo de venta y método de pago.
+<img width="898" height="507" alt="blue_for_porfolio" src="https://github.com/user-attachments/assets/f181dbe1-2c82-4edc-a417-d44b39dcb2dd" />
+
+
+
+
 🔹 **[Detección de Anomalías con Kurtosis en Python](https://github.com/RodolfoJapa/portafolio/tree/main/ciencia%20de%20datos)** → Identifiqué comportamientos transaccionales atípicos utilizando kurtosis como métrica estadística, replicando un flujo de análisis de datos.
 <img width="996" height="470" alt="image_kurtosis" src="https://github.com/user-attachments/assets/0f3476fe-52fb-4a2f-9546-fe06c01cc232" />
 
