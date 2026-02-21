@@ -1,11 +1,11 @@
 # 🚀 NumPy Data Science Project  
-### High-Performance Numerical Analysis with NumPy (Google Colab)
+### High-Performance Numerical Analysis with NumPy
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates a **production-style Data Science workflow using NumPy only**, executed in **Google Colab**.
+This project demonstrates a **production-style Data Science workflow using NumPy only**
 
 The main objective is to showcase:
 - Advanced NumPy usage
