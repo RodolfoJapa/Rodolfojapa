@@ -1,77 +1,92 @@
-📊 Dashboard de Ventas – Análisis de Rendimiento y Rentabilidad
-📌 Descripción del Proyecto
+# 📊 Dashboard de Ventas – Análisis de Rendimiento y Rentabilidad
 
-Diseñé y desarrollé un dashboard interactivo en Power BI orientado al análisis del desempeño comercial y la rentabilidad del negocio.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Platform](https://img.shields.io/badge/Platform-Power%20BI%20Desktop-orange)
+![Focus](https://img.shields.io/badge/Focus-Business%20Intelligence-lightgrey)
 
-El proyecto transforma datos transaccionales en información estratégica accionable, permitiendo evaluar la eficiencia operativa, identificar patrones de comportamiento y optimizar la toma de decisiones basada en datos.
+---
 
-El enfoque está alineado a escenarios reales de negocio, donde la visualización clara y el análisis estructurado son claves para la gestión empresarial.
+## 📁 Descripción General
 
-🎯 Objetivos del Análisis
+Este proyecto fue desarrollado para demostrar mis competencias en **Data Analytics y Business Intelligence**, como parte de mi **portafolio profesional**.
 
-Evaluar el desempeño general del negocio mediante KPIs financieros.
+El entorno de desarrollo utilizado fue **Power BI Desktop**, permitiendo la creación de un dashboard interactivo enfocado en el análisis del rendimiento comercial y la rentabilidad del negocio.
 
-Analizar la rentabilidad por categoría y tipo de producto.
+El proyecto simula un escenario empresarial real donde se analizan **datos transaccionales de ventas**, transformándolos en información estratégica mediante indicadores clave (KPIs), análisis temporal y segmentación comercial.
 
-Identificar patrones estacionales y tendencias de ventas.
+---
 
-Detectar oportunidades de mejora en la estrategia comercial.
+## 🎯 Objetivo del Proyecto
 
-Facilitar decisiones estratégicas respaldadas por datos.
+- Analizar el desempeño comercial del negocio  
+- Evaluar la rentabilidad general y por categoría  
+- Identificar patrones estacionales en las ventas  
+- Detectar oportunidades de optimización estratégica  
+- Facilitar la toma de decisiones basada en datos  
 
-📈 Indicadores Clave (KPIs)
+---
 
-El dashboard integra métricas esenciales para la gestión empresarial:
+## 🧠 Enfoque Metodológico
 
-💰 Ventas Totales
+- Modelado de datos relacional  
+- Creación de medidas DAX para KPIs financieros  
+- Análisis temporal (mensual y diario)  
+- Segmentación por producto, tipo de venta y método de pago  
+- Evaluación del margen de beneficio  
 
-📊 Ganancia Total
+---
 
-📈 Margen de Beneficio: 27%
+## ☁️ Entorno Tecnológico
 
-📅 Evolución temporal (mensual y diaria)
+| Componente | Detalle |
+|------------|----------|
+| Plataforma | Power BI Desktop |
+| Lenguaje | DAX |
+| Enfoque | Business Intelligence |
+| Tipo | Dashboard interactivo |
+| Archivo | .pbix |
 
-🛒 Desempeño por producto
+---
 
-🏷️ Segmentación por tipo de venta
+## 📂 Estructura del Proyecto
 
-💳 Análisis por método de pago
+- `DashboardVentas.pbix`  
+- `README.md`  
 
-🔎 Principales Hallazgos
+---
 
-La categoría Computadoras representa la mayor rentabilidad del negocio.
+## ▶️ Ejecución
 
-Se evidencian patrones estacionales que impactan el volumen de ventas.
+1. Descargar el archivo `.pbix`  
+2. Abrir el archivo en **Power BI Desktop**  
+3. Explorar los filtros interactivos y segmentaciones  
+4. Analizar los KPIs y visualizaciones dinámicas  
 
-Existen variaciones significativas en el margen según tipo de venta y método de pago.
+---
 
-Se identifican oportunidades claras para optimizar la estrategia comercial y maximizar beneficios.
+## ✅ Características Clave
 
-🛠️ Herramientas y Enfoque Técnico
+✔ Dashboard interactivo y dinámico  
+✔ Modelado de datos estructurado  
+✔ Medidas DAX optimizadas  
+✔ Análisis financiero y comercial claro  
+✔ Diseño orientado a storytelling con datos  
+✔ Proyecto ideal para portafolio profesional  
 
-Power BI
+---
 
-Modelado de datos relacional
+## 📌 Notas
 
-Creación de medidas y métricas con DAX
+- El margen de beneficio general del negocio es del **27%**.  
+- La categoría **Computadoras** presenta la mayor rentabilidad.  
+- Se identifican patrones estacionales que influyen en el comportamiento de ventas.  
+- Proyecto desarrollado con fines **educativos y demostrativos**.  
+- Puede extenderse fácilmente incorporando más fuentes de datos o métricas avanzadas.  
 
-Diseño de visualizaciones enfocadas en storytelling con datos
+---
 
-Análisis financiero y segmentación comercial
+## 👨‍💻 Autor
 
-🚀 Impacto y Valor Agregado
-
-Este dashboard permite:
-
-Monitorear el rendimiento del negocio en tiempo real.
-
-Identificar tendencias y comportamientos clave del mercado.
-
-Detectar áreas de mejora con impacto directo en la rentabilidad.
-
-Convertir datos operativos en ventajas competitivas.
-
-👨‍💻 Autor
-
-Rodolfo Japa
-Proyecto de Portafolio – Data Analytics & Business Intelligence
+**Rodolfo Japa**  
+Proyecto de portafolio – Data Analytics & Business Intelligence  
