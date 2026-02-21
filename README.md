@@ -51,7 +51,7 @@
 
 ## 📂 Proyectos Destacados  
 
-🔹 **[Detección de Anomalías con Kurtosis en Python](https://github.com/RodolfoJapa/portafolio/tree/main/ciencia%20de%20datos)** → Identifiqué comportamientos transaccionales atípicos utilizando kurtosis como métrica estadística, replicando un flujo de análisis de datos en un entorno de producción con Python y Google Colab.
+🔹 **[Detección de Anomalías con Kurtosis en Python](https://github.com/RodolfoJapa/portafolio/tree/main/ciencia%20de%20datos)** → Identifiqué comportamientos transaccionales atípicos utilizando kurtosis como métrica estadística, replicando un flujo de análisis de datos.
 <img width="996" height="470" alt="image_kurtosis" src="https://github.com/user-attachments/assets/0f3476fe-52fb-4a2f-9546-fe06c01cc232" />
 
 🔹 **[Detección de Anomalías con Kurtosis y Decision Trees en Python)](https://github.com/RodolfoJapa/portafolio/tree/main/machine_learnig_python)** → Construí un pipeline de machine learning para la detección de comportamientos anómalos, combinando ingeniería de características basada en kurtosis y un modelo de Decision Tree en un entorno reproducible. Esta imagen representa la matriz de confusión del modelo Decision Tree entrenado dentro de un pipeline de machine learning para la detección de comportamientos anómalos.
@@ -67,7 +67,7 @@
 
 <img width="576" height="455" alt="law_of_large_number" src="https://github.com/user-attachments/assets/8381b230-408c-41f2-8b81-992bc659c43c" />
 
-🔹 **[Data Science Project – Pandas in Production](https://github.com/RodolfoJapa/portafolio/tree/main/uso_pandas)** → Desarrollé un pipeline de datos completo utilizando Pandas, desde la ingestión hasta la exportación de resultados listos para producción, simulando un flujo de trabajo real de Data Science en Google Colab.
+🔹 **[Data Science Project – Pandas in Production](https://github.com/RodolfoJapa/portafolio/tree/main/uso_pandas)** → Desarrollé un pipeline de datos completo utilizando Pandas, desde la ingestión hasta la exportación de resultados listos para producción, simulando un flujo de trabajo real.
 
 <img width="990" height="490" alt="pandas_image" src="https://github.com/user-attachments/assets/ac851d83-bc51-48a2-ab0d-d481c2e8231b" />
 
