@@ -1,9 +1,9 @@
-# 📊 Data Science Project – Pandas in Production (Google Colab)
+# 📊 Data Science Project – Pandas in Production 
 
 ## 📌 Project Overview
 This project was created to demonstrate **practical and production-ready usage of Pandas** as part of a **Data Science professional portfolio**.
 
-The notebook simulates a **real-world data pipeline**, executed entirely in **Google Colab**, covering:
+The notebook simulates a **real-world data pipeline**, 
 - Data ingestion
 - Data validation
 - Data cleaning
