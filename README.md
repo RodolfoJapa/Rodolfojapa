@@ -96,12 +96,14 @@
 ## 🤝 Conecta Conmigo  
 
 <p align="center">
-  <a href="www.linkedin.com/in/soyrodolfo">
+  <a href="https://www.linkedin.com/in/soyrodolfo/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="japarodolfo786@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/>
-  </a>
+	
+<a href="mailto:japarodolfo786@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/>
+</a>
+  
   <a href="https://github.com/RodolfoJapa">
     <img src="https://img.shields.io/badge/GitHub-181717?style=plastic&logo=github&logoColor=white"/>
   </a>
