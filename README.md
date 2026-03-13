@@ -15,8 +15,9 @@
 ## <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width=50px></picture> Sobre mí
 
 <picture> 
-  <img align="right" src="https://i.ibb.co/7N1ghR5/data-analyst-right.png" width=250px>
+	
 </picture>
+
 
 - 📊 Soy un **Data sciencie** apasionado por la **toma de decisiones basada en datos**.  
 - 🛠 Con experiencia en **Excel, SQL, Power BI, Tableau, Python, R y Estadística**.  
