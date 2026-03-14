@@ -52,6 +52,12 @@
 
 ## 📂 Proyectos Destacados  
 
+🔹 **[Industrial AI Monitoring System – Monitoreo Predictivo de Fallas](https://github.com/RodolfoJapa/portafolio/tree/main/Dashboar_Pizzas)** Desarrollar un sistema de monitoreo industrial en Python para la predicción y prescripción de fallas en maquinaria utilizando datos de sensores y técnicas de Machine Learning.
+
+![Monitoreo Predictivo de Fallas](imagen/Sistema_monitoreo.gif)
+
+
+
 🔹 **[Pizza Sales Dashboard – Análisis de Rendimiento Comercial](https://github.com/RodolfoJapa/portafolio/tree/main/Dashboar_Pizzas)** →El dashboard fue construido en Power BI para analizar el desempeño de ventas de una pizzería, permitiendo visualizar métricas clave del negocio como ingresos totales, volumen de pedidos, comportamiento de ventas a lo largo del tiempo y desempeño por categorías de pizza.
 ![Dashboard_Pizza](https://github.com/user-attachments/assets/df81c64f-7a99-4654-bf25-329869971df3)
 
@@ -82,9 +88,8 @@
 
 <img width="576" height="455" alt="law_of_large_number" src="https://github.com/user-attachments/assets/8381b230-408c-41f2-8b81-992bc659c43c" />
 
-🔹 **[Data Science Project – Pandas in Production](https://github.com/RodolfoJapa/portafolio/tree/main/uso_pandas)** → Desarrollé un pipeline de datos completo utilizando Pandas, desde la ingestión hasta la exportación de resultados listos para producción, simulando un flujo de trabajo real.
-
-<img width="990" height="490" alt="pandas_image" src="https://github.com/user-attachments/assets/ac851d83-bc51-48a2-ab0d-d481c2e8231b" />
+🔹 **[Data Science Project – Geospatial Clustering Analysis](https://github.com/RodolfoJapa/portafolio/tree/main/analisis_geopacial)** → Desarrollar un análisis de segmentación geoespacial utilizando Python para identificar patrones de distribución comercial en diferentes zonas geográficas.
+![Mapa de segmentación geoespacial](imagen/sementacion_geopacial.png)
 
 
 
