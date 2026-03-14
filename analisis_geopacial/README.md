@@ -1,39 +1,29 @@
-# 🏭 Proyecto de Ciencia de Datos – Sistema de Monitoreo Predictivo y Prescriptivo de Fallas Industriales
+# 📊 Proyecto de Ciencia de Datos – Segmentación Geoespacial de Densidad Comercial en Tlaxcala
 
 ## 📌 Descripción del Proyecto
-Este proyecto demuestra técnicas de **analítica predictiva, monitoreo de datos en tiempo real y mantenimiento basado en datos** utilizando Python como parte de un **portafolio profesional de Ciencia de Datos**.
+Este proyecto demuestra técnicas de **análisis geoespacial y segmentación de datos** utilizando Python como parte de un **portafolio profesional de Ciencia de Datos**.
 
-El análisis se basa en el dataset **AI4I 2020 Predictive Maintenance Dataset**, que contiene variables operativas de maquinaria industrial como **temperatura, velocidad rotacional, torque y desgaste de herramienta**.
+El análisis se basa en un **dataset de ubicaciones comerciales en Tlaxcala, México**, utilizando **coordenadas geográficas (latitud y longitud)** para identificar patrones en la distribución espacial de establecimientos.
 
-El objetivo del proyecto es **predecir fallas en maquinaria industrial y generar recomendaciones de mantenimiento**, utilizando técnicas de **Machine Learning, detección de anomalías y visualización interactiva**.
-
-El sistema desarrollado simula un **entorno de monitoreo industrial en tiempo real**, donde múltiples máquinas envían datos de sensores que son analizados para detectar riesgos operativos.
+El objetivo del proyecto es **identificar clusters o agrupaciones de actividad comercial** y analizar cómo se distribuyen geográficamente dentro de la ciudad.
 
 El flujo de trabajo del proyecto incluye:
 
 - Ingesta de datos  
 - Limpieza y preprocesamiento  
-- Análisis exploratorio de datos (EDA)  
-- Entrenamiento de modelos de Machine Learning  
-- Detección de anomalías  
-- Monitoreo de sensores en tiempo real  
-- Visualización de métricas operativas en un dashboard  
+- Exploración geoespacial  
+- Segmentación mediante clustering  
+- Visualización de patrones espaciales  
+- Interpretación de densidad comercial  
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
-
-- **Python 3**
-- **Pandas**
-- **NumPy**
-- **Scikit-learn**
-- **Streamlit**
-- **Matplotlib**
-
-**Modelos utilizados:**
-
-- **Random Forest** → Predicción de fallas  
-- **Isolation Forest** → Detección de anomalías  
+- Python 3
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
 ---
 
@@ -43,118 +33,69 @@ El flujo de trabajo del proyecto incluye:
 
 ## 🔄 Flujo de Análisis de Datos
 
-### 1. Carga de datos
-Importación del dataset **AI4I Predictive Maintenance**, que contiene información sobre el comportamiento operativo de maquinaria industrial.
+1. **Carga de datos**  
+   Importación del dataset con coordenadas geográficas de establecimientos en Tlaxcala.
 
-Variables principales del dataset:
+2. **Limpieza de datos**  
+   Validación y depuración de valores inconsistentes en latitud y longitud.
 
-- Air temperature  
-- Process temperature  
-- Rotational speed  
-- Torque  
-- Tool wear  
+3. **Análisis exploratorio**  
+   Identificación de patrones espaciales en la distribución de los comercios.
 
----
+4. **Modelo de clustering**  
+   Aplicación de técnicas de **aprendizaje no supervisado** para agrupar ubicaciones geográficas cercanas.
 
-### 2. Limpieza de datos
-Se realizó la validación de valores y revisión de tipos de datos para asegurar la consistencia del dataset.
+5. **Visualización**  
+   Representación gráfica de clusters y densidad comercial mediante gráficos de dispersión.
 
-También se verificó el balance de clases en la variable **Machine Failure**.
-
----
-
-### 3. Análisis Exploratorio de Datos (EDA)
-
-Se analizaron las relaciones entre variables operativas y fallas de máquina, incluyendo:
-
-- Distribución de temperaturas
-- Relación entre torque y fallas
-- Impacto del desgaste de herramienta
-- Identificación de patrones operativos
-
----
-
-### 4. Modelo de Machine Learning
-
-Se entrenó un modelo de **Random Forest** para predecir la probabilidad de falla de una máquina utilizando variables de sensores.
-
-Variables utilizadas por el modelo:
-
-- Air temperature  
-- Process temperature  
-- Rotational speed  
-- Torque  
-- Tool wear  
-
-El modelo estima la **probabilidad de falla de la máquina** en función de sus condiciones operativas.
-
----
-
-### 5. Detección de anomalías
-
-Se implementó un modelo **Isolation Forest** para detectar comportamientos operativos fuera de lo normal.
-
-Esto permite identificar:
-
-- Condiciones anormales de operación  
-- Posibles fallas futuras  
-- Patrones inusuales en sensores  
-
----
-
-### 6. Monitoreo en tiempo real
-
-El sistema simula un flujo continuo de **datos de sensores industriales**, representando múltiples máquinas que envían información periódicamente.
-
-Esto permite observar:
-
-- Cambios en las condiciones operativas  
-- Incremento en el riesgo de falla  
-- Detección de eventos críticos  
-
----
-
-### 7. Dashboard interactivo
-
-Se desarrolló un **dashboard interactivo en Streamlit** para visualizar el estado del sistema.
-
-El panel muestra:
-
-- Probabilidad de falla de cada máquina  
-- Estimación de vida útil restante (RUL)  
-- Alertas operativas  
-- Panel de causas de falla (TWF, HDF, PWF, OSF)  
-- Detección de anomalías en sensores  
+6. **Interpretación**  
+   Identificación de zonas con mayor concentración de actividad comercial.
 
 ---
 
 ## 📈 Visualizaciones Incluidas
 
-El proyecto incluye visualizaciones que permiten interpretar el comportamiento operativo de las máquinas:
+El proyecto incluye visualizaciones que permiten interpretar los patrones espaciales:
 
-- Monitoreo del estado de múltiples máquinas  
-- Probabilidad de falla en tiempo real  
-- Panel de causas de fallas  
-- Detección de anomalías  
-- Gráficos de evolución de métricas operativas  
+- Gráfico de dispersión geoespacial de ubicaciones comerciales
+- Segmentación de clusters mediante colores
+- Representación de densidad usando el tamaño de los puntos
 
-Estas visualizaciones permiten identificar **condiciones de riesgo y anticipar necesidades de mantenimiento**.
+Estas visualizaciones permiten identificar **zonas con alta, media y baja concentración comercial en Tlaxcala**.
 
 ---
 
 ## 📦 Resultados
 
-El sistema desarrollado permite:
+- Visualización geoespacial de clusters comerciales
+- Asignación de cluster a cada establecimiento
+- Identificación de patrones de densidad comercial en la ciudad
 
-- Predecir fallas en maquinaria industrial  
-- Detectar anomalías en condiciones operativas  
-- Simular un entorno de monitoreo industrial en tiempo real  
-- Visualizar métricas operativas mediante un dashboard interactivo  
-- Generar recomendaciones para mantenimiento preventivo  
+---
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Abrir **Jypyter notebook**
+2. Subir el notebook del proyecto
+3. Cargar el dataset `BD_Tlaxcala`
+4. Ejecutar todas las celdas del notebook
+5. Se generará la visualización del clustering geoespacial
+
+---
+
+## 🎯 Aprendizajes Clave
+
+Este proyecto demuestra:
+
+- Análisis de **datos geoespaciales con Python**
+- Aplicación de **algoritmos de clustering**
+- Identificación de **patrones espaciales**
+- Visualización de datos para **interpretación analítica**
+- Estructuración de proyectos para **portafolio de Data Science**
 
 ---
 
 ## 👨‍💻 Autor
 
 **Rodolfo Japa**  
-Proyecto de Portafolio – Analítica y Ciencia de Datos
+Proyecto de Portafolio – Ciencia de Datos y Analítica
