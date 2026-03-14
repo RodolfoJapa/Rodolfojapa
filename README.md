@@ -52,7 +52,7 @@
 
 ## 📂 Proyectos Destacados  
 
-🔹 **[Industrial AI Monitoring System – Monitoreo Predictivo de Fallas](https://github.com/RodolfoJapa/portafolio/tree/main/Dashboar_Pizzas)** Desarrollar un sistema de monitoreo industrial en Python para la predicción y prescripción de fallas en maquinaria utilizando datos de sensores y técnicas de Machine Learning.
+🔹 **[Industrial AI Monitoring System – Monitoreo Predictivo de Fallas](https://github.com/RodolfoJapa/portafolio/tree/main/sistema_monitoreo)** Desarrollar un sistema de monitoreo industrial en Python para la predicción y prescripción de fallas en maquinaria utilizando datos de sensores y técnicas de Machine Learning.
 
 ![Monitoreo Predictivo de Fallas](imagen/Sistema_monitoreo.gif)
 
