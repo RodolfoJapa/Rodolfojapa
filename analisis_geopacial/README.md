@@ -1,94 +1,101 @@
-# 📊 Data Science Project – Pandas in Production 
+# 📊 Proyecto de Ciencia de Datos – Segmentación Geoespacial de Densidad Comercial en Tlaxcala
 
-## 📌 Project Overview
-This project was created to demonstrate **practical and production-ready usage of Pandas** as part of a **Data Science professional portfolio**.
+## 📌 Descripción del Proyecto
+Este proyecto demuestra técnicas de **análisis geoespacial y segmentación de datos** utilizando Python como parte de un **portafolio profesional de Ciencia de Datos**.
 
-The notebook simulates a **real-world data pipeline**, 
-- Data ingestion
-- Data validation
-- Data cleaning
-- Feature engineering
-- Aggregation & analytics
-- Visualization
-- Export of production-ready outputs
+El análisis se basa en un **dataset de ubicaciones comerciales en Tlaxcala, México**, utilizando **coordenadas geográficas (latitud y longitud)** para identificar patrones en la distribución espacial de establecimientos.
 
-All data used in this project is **synthetically generated** to replicate transactional data commonly found in production systems.
+El objetivo del proyecto es **identificar clusters o agrupaciones de actividad comercial** y analizar cómo se distribuyen geográficamente dentro de la ciudad.
 
----
+El flujo de trabajo del proyecto incluye:
 
-## 🛠️ Technologies Used
-- **Python 3**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Google Colab**
+- Ingesta de datos  
+- Limpieza y preprocesamiento  
+- Exploración geoespacial  
+- Segmentación mediante clustering  
+- Visualización de patrones espaciales  
+- Interpretación de densidad comercial  
 
 ---
 
-## 🗂️ Project Structure
+## 🛠️ Tecnologías Utilizadas
+- Python 3
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
 ---
 
-## 🔄 Data Pipeline Workflow
-1. **Data Generation** – Synthetic transactional data
-2. **Data Validation** – Quality and consistency checks
-3. **Data Cleaning** – Standardization and formatting
-4. **Feature Engineering** – Business logic features
-5. **Aggregation** – KPIs and grouped analytics
-6. **Visualization** – Business insights with charts
-7. **Export** – Production-ready files
+## 🗂️ Estructura del Proyecto
 
 ---
 
-## 📈 Visualizations Included
-- Total sales by category
-- Monthly revenue trend
-- Transaction amount distribution
-- High-value transaction ratio
-- KPI summary table
+## 🔄 Flujo de Análisis de Datos
 
-These visualizations reflect **real analytics dashboards** used in production environments.
+1. **Carga de datos**  
+   Importación del dataset con coordenadas geográficas de establecimientos en Tlaxcala.
 
----
+2. **Limpieza de datos**  
+   Validación y depuración de valores inconsistentes en latitud y longitud.
 
-## 📦 Outputs
-- **monthly_sales.parquet** – Aggregated sales data
-- **sample_transactions.csv** – Sample dataset for audits or analysis
-- **KPI metrics** displayed in the notebook
+3. **Análisis exploratorio**  
+   Identificación de patrones espaciales en la distribución de los comercios.
 
----
+4. **Modelo de clustering**  
+   Aplicación de técnicas de **aprendizaje no supervisado** para agrupar ubicaciones geográficas cercanas.
 
-## 🚀 How to Run
-1. Open **Google Colab**
-2. Upload the notebook
-3. Run all cells sequentially
-4. Generated files will appear in the Colab file system
+5. **Visualización**  
+   Representación gráfica de clusters y densidad comercial mediante gráficos de dispersión.
+
+6. **Interpretación**  
+   Identificación de zonas con mayor concentración de actividad comercial.
 
 ---
 
-## 🎯 Key Learnings Demonstrated
-- Pandas used at **production scale**
-- Modular and readable code
-- Data validation best practices
-- Business-oriented analytics
-- Clean visual storytelling
-- Portfolio-ready structure
+## 📈 Visualizaciones Incluidas
+
+El proyecto incluye visualizaciones que permiten interpretar los patrones espaciales:
+
+- Gráfico de dispersión geoespacial de ubicaciones comerciales
+- Segmentación de clusters mediante colores
+- Representación de densidad usando el tamaño de los puntos
+
+Estas visualizaciones permiten identificar **zonas con alta, media y baja concentración comercial en Tlaxcala**.
 
 ---
 
-## 🔮 Future Improvements
-- Add logging and monitoring
-- Unit testing for pipeline functions
-- Integration with SQL / BigQuery
-- Interactive dashboards (Plotly)
-- Machine Learning extensions
+## 📦 Resultados
+
+- Visualización geoespacial de clusters comerciales
+- Asignación de cluster a cada establecimiento
+- Identificación de patrones de densidad comercial en la ciudad
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Abrir **Jupyter notebook**
+2. Subir el notebook del proyecto
+3. Cargar el dataset `BD_Tlaxcala`
+4. Ejecutar todas las celdas del notebook
+5. Se generará la visualización del clustering geoespacial
+
+---
+
+## 🎯 Aprendizajes Clave
+
+Este proyecto demuestra:
+
+- Análisis de **datos geoespaciales con Python**
+- Aplicación de **algoritmos de clustering**
+- Identificación de **patrones espaciales**
+- Visualización de datos para **interpretación analítica**
+- Estructuración de proyectos para **portafolio de Data Science**
+
+---
+
+## 👨‍💻 Autor
+
 **Rodolfo Japa**  
-Data Science & Analytics Portfolio Project
-
----
-
-⭐ If you find this project useful, feel free to fork or star the repository.
+Proyecto de Portafolio – Ciencia de Datos y Analítica
